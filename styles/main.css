@@ -1,4 +1,20 @@
-#fishtank
-#fishtank {}
-.fish {}
-.fish_name {}
+body {
+    background-color: aqua;
+}
+
+#app {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left, .right {
+    border: 2px dotted red;
+}
+
+.left {
+    flex: 2 10px;
+}
+
+.right {
+    flex: 1 10px;
+}
